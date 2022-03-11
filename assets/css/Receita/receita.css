@@ -1,0 +1,38 @@
+.receita {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.receita:hover{
+    transform:  scale(1.1);
+    transition: all 1s;
+       
+}
+
+
+@media  screen and (min-width: 0) {
+    .receita{
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .receita{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+
+@media  screen and (min-width: 992px) {
+    .receita{
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}
